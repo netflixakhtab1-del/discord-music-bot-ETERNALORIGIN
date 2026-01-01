@@ -117,7 +117,7 @@ module.exports = {
                     .setDisabled(index === 0),
                 new ButtonBuilder()
                     .setCustomId('apply')
-                    .setLabel(`${Emoji.check || '✅'} Apply Theme`)
+                    .setLabel('✅ Apply Theme')
                     .setStyle(ButtonStyle.Success),
                 new ButtonBuilder()
                     .setCustomId('next')
@@ -177,3 +177,4 @@ module.exports = {
         });
     },
 };
+
